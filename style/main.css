@@ -1,0 +1,90 @@
+body{
+    background-color:#3D0A11;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav a{
+    text-decoration:none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+img {
+    margin-left: 5px;
+    align-items: center;
+}
+
+/* Filme Principal */
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,.25)100%), url('/img/naoolheparacima.jpg');
+    height: 510px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+.titulo-filme{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 10px 30px;
+    margin-right: 20px;
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
